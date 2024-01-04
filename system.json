@@ -1,0 +1,28 @@
+{
+    "name": "spirit-and-caos",
+    "title": "Espirito e Caos",
+    "description": "Sistema de espirito e caos encorporado ao Foundry VTT.",
+    "author": "Gabe",
+    "version": "0.01",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "esmodules": [
+        "spirit-and-caos.js"
+    ],
+    "styles": [
+        "spirit-and-caos.css"
+
+    ],
+    "packs": [
+
+    ],
+    "languages":[
+
+    ],
+    "gridDistance": 1.5,
+    "gridUnits": "m",
+    "primareTokenAttribute": "PV",
+    "initiative": "3d6"
+}
