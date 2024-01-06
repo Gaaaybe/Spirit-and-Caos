@@ -1,5 +1,5 @@
 {
-    "name": "SaC",
+    "name": "spirit-and-caos",
     "title": "Espirito e Caos",
     "description": "Sistema de espirito e caos encorporado ao Foundry VTT.",
     "author": "Gabe",
@@ -8,11 +8,11 @@
         "minimum": "11",
         "verified": "11"
     },
-    "scripts": [
-        "SaC.js"
+    "esmodules": [
+        "spirit-and-caos.js"
     ],
     "styles": [
-        "SaC.css"
+        "spirit-and-caos.css"
 
     ],
     "packs": [
