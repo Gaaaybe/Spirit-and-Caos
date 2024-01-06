@@ -1,4 +1,31 @@
 {
     "Actor": {},
-    "Item": {}
+    "Item": {
+        "types": [
+            "arma",
+            "equipamento",
+            "ferramenta",
+            "caminho",
+            "consumivel",
+            "habilidade",
+            "tesouro"
+        ],
+        "templates": {
+            "descricaoDeItem": {
+                "descricao": ""
+            }
+         
+        },
+        "arma": {
+            "templates": [
+                "descricaoDeItem"
+            ],
+            "rolls": [],
+            "criticoM": 20,
+            "criticoX": 2,
+            "alcance": "",
+            "tipoUso": "simples",
+            "propriedades": {}
+        }
+    }
 }
