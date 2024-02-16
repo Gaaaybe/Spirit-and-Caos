@@ -3,29 +3,68 @@
     "Item": {
         "types": [
             "arma",
-            "equipamento",
             "ferramenta",
-            "caminho",
-            "consumivel",
-            "habilidade",
+            "traje",
+            "protecao",
+            "municao",
+            "comida",
+            "Pocao",
+            "quimico",
+            "veneno",
+            "artefato",
+            "acessorio",
+            "material",
+            "veiculo",
             "tesouro"
         ],
         "templates": {
             "descricaoDeItem": {
                 "descricao": ""
+            },
+            "raridade": {
+                "comum": 0,
+                "raro": 0,
+                "lendario": 0,
+                "divino": 0
+            },
+            "localDeEncontro":{
+                "universo": ""
+
             }
          
         },
         "arma": {
             "templates": [
-                "descricaoDeItem"
+                "descricaoDeItem", "raridade", "localDeEncontro"
             ],
-            "rolls": [],
+            "danoInicial": 0,
+            "danoBase": 0,
+            "danoInicialTH": 0,
+            "danoBaseTH": 0,
+            "danoAdcional": 0,
+            "danoAdcionalEs": 0,
+            "danoEs": 0,
+            "tipoDano": "perfuracao",
+            "tipoDanoAdicional": "perfuracao",
+            "scaling": "B",
+            "atributodeScaling": "forca",
             "criticoM": 20,
             "criticoX": 2,
             "alcance": "",
             "tipoUso": "simples",
-            "propriedades": {}
+            "recarga": "",
+            "classificação": "corpo-a-corpo"
+
+
+        },
+
+        "veiculo": {
+            "templates": [
+                "descricaoDeItem", "raridade", "localDeEncontro"
+            ],
+            "pv": 0,
+            "deslocamento": 0
+
         }
     }
 }
